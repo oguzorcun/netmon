@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.netmon.pinglogger</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>REPLACE_WITH_HOME/netmon/ping_monitor.sh</string>
+    </array>
+
+    <!-- Start when you log in -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Restart automatically if it ever dies (e.g. after sleep/wake) -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/netmon.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/netmon.err.log</string>
+</dict>
+</plist>

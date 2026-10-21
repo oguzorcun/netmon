@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.netmon.reportgen</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>REPLACE_WITH_HOME/netmon/generate_report.py</string>
+    </array>
+
+    <!-- Run every s seconds -->
+    <key>StartInterval</key>
+    <integer>5</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/netmon.report.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/netmon.report.err.log</string>
+</dict>
+</plist>

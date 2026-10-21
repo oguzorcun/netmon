@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LTE connection monitor">
+  <rect width="64" height="64" rx="14" fill="#161616"/>
+  <polyline points="8,42 21,42 27,20 34,50 40,42 56,42"
+            fill="none" stroke="#4fd1c5" stroke-width="6"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
